@@ -23,4 +23,3 @@ def find_the_cheese(arr)
   end
   return nil
 end
- find_the_cheese(["banana", "cheddar", "sock"])
