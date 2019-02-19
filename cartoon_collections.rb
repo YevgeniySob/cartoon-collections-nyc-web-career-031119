@@ -7,7 +7,8 @@ end
 def summon_captain_planet(arr)
   temp = ""
   arr.collect do |ele|
-    ele[0].upcase
+    ele[0].upcase << "!"
+  end
 end
 
 def long_planeteer_calls(arr)
