@@ -5,7 +5,9 @@ def roll_call_dwarves(arr)
 end
 
 def summon_captain_planet(arr)
-  
+  temp = ""
+  arr.collect do |ele|
+    ele[0].upcase
 end
 
 def long_planeteer_calls(arr)
