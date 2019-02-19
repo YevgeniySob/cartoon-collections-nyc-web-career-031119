@@ -7,7 +7,7 @@ end
 def summon_captain_planet(arr)
   temp = ""
   arr.collect do |ele|
-    ele
+    ele.capitalize
   end
 end
 
