@@ -20,4 +20,4 @@ def find_the_cheese(arr)
     cheese_types.include?(ele) ? ele : nil
   end
 end
- find_the_cheese()
+ find_the_cheese(["banana", "cheddar", "sock"])
