@@ -18,11 +18,9 @@ def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   arr.each do |ele|
     if cheese_types.include?(ele) 
-      puts ele
       return ele 
-    else 
-      nil
     end
   end
+  return nil
 end
  find_the_cheese(["banana", "cheddar", "sock"])
